@@ -4,6 +4,7 @@ using EmployeeManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManagementSystem.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    partial class EmployeeContextModelSnapshot : ModelSnapshot
+    [Migration("20250323173111_UserRolepopulated")]
+    partial class UserRolepopulated
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace EmployeeManagementSystem.Migrations
                         },
                         new
                         {
-                            Id = "8f14e45f-e1b3-45c9-bc1a-93e0e15f369f",
+                            Id = "8f14e45f - e1b3 - 45c9 - bc1a - 93e0e15f369f",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         });

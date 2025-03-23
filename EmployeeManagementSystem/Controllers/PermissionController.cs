@@ -1,7 +1,9 @@
 ﻿using EmployeeManagementSystem.Models;
 using EmployeeManagementSystem.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace EmployeeManagementSystem.Controllers
 {
@@ -10,10 +12,14 @@ namespace EmployeeManagementSystem.Controllers
     public class PermissionController : ControllerBase
     {
         private readonly IPermissionRepository _permissionRepository;
+        private readonly IRolePermissionRepository _rolePermissionRepository;
+        
 
-        public PermissionController(IPermissionRepository permissionRepository)
+        public PermissionController(IPermissionRepository permissionRepository, IRolePermissionRepository rolePermissionRepository)
         {
             _permissionRepository = permissionRepository;
+            _rolePermissionRepository = rolePermissionRepository;
+            
         }
 
         // GET: api/permission
@@ -33,8 +39,17 @@ namespace EmployeeManagementSystem.Controllers
             return Ok(permission);
         }
 
+        // GET: api/permission/role/{roleId}
+        [HttpGet("role/{roleId}")]
+        public async Task<IActionResult> GetPermissionsByRole(string roleId)
+        {
+            var permissions = await _rolePermissionRepository.GetPermissionsByRoleIdAsync(roleId);
+            return Ok(permissions);
+        }
+
         // POST: api/permission
         [HttpPost]
+        [Authorize(Policy = "ManagePermissions")]
         public async Task<IActionResult> CreatePermission([FromBody] Permission permission)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -45,8 +60,33 @@ namespace EmployeeManagementSystem.Controllers
             return CreatedAtAction(nameof(GetPermissionById), new { id = permission.Id }, permission);
         }
 
+        // POST: api/permission/assign
+        [HttpPost("assign")]
+        [Authorize(Policy = "ManagePermissions")]
+        public async Task<IActionResult> AssignPermissionToRole([FromBody] RolePermission rolePermission)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            bool isAssigned = await _rolePermissionRepository.AssignPermissionToRoleAsync(rolePermission);
+            if (!isAssigned) return Conflict("Permission is already assigned to the role.");
+
+            return Ok("Permission assigned to role successfully.");
+        }
+
+        // DELETE: api/permission/unassign
+        [HttpDelete("unassign")]
+        [Authorize(Policy = "ManagePermissions")]
+        public async Task<IActionResult> UnassignPermissionFromRole([FromBody] RolePermission rolePermission)
+        {
+            bool isUnassigned = await _rolePermissionRepository.UnassignPermissionFromRoleAsync(rolePermission);
+            if (!isUnassigned) return NotFound("Permission not found for the specified role.");
+
+            return Ok("Permission unassigned from role successfully.");
+        }
+
         // PUT: api/permission/{id}
         [HttpPut("{id}")]
+        [Authorize(Policy = "ManagePermissions")]
         public async Task<IActionResult> UpdatePermission(int id, [FromBody] Permission permission)
         {
             if (id != permission.Id) return BadRequest("Mismatched Permission ID.");
@@ -60,6 +100,7 @@ namespace EmployeeManagementSystem.Controllers
 
         // DELETE: api/permission/{id}
         [HttpDelete("{id}")]
+        [Authorize(Policy = "ManagePermissions")]
         public async Task<IActionResult> DeletePermission(int id)
         {
             bool isDeleted = await _permissionRepository.DeletePermissionAsync(id);
@@ -67,5 +108,7 @@ namespace EmployeeManagementSystem.Controllers
 
             return NoContent();
         }
+
+        
     }
 }

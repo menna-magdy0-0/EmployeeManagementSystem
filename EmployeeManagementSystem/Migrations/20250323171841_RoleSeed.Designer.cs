@@ -4,6 +4,7 @@ using EmployeeManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManagementSystem.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    partial class EmployeeContextModelSnapshot : ModelSnapshot
+    [Migration("20250323171841_RoleSeed")]
+    partial class RoleSeed
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace EmployeeManagementSystem.Migrations
                         },
                         new
                         {
-                            Id = "8f14e45f-e1b3-45c9-bc1a-93e0e15f369f",
+                            Id = "8f14e45f - e1b3 - 45c9 - bc1a - 93e0e15f369f",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         });
@@ -349,13 +352,6 @@ namespace EmployeeManagementSystem.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "fd89db4f-64ba-4496-a043-c2807a23b518",
-                            RoleId = "550e8400-e29b-41d4-a716-446655440000"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

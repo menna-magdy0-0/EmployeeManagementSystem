@@ -1,4 +1,5 @@
 ﻿using EmployeeManagementSystem.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,6 +18,7 @@ namespace EmployeeManagementSystem.Controllers
 
         // GET: api/AuditLog
         [HttpGet]
+        [Authorize(Policy = "OnlyAdminUsers")]
         public async Task<IActionResult> GetAll()
         {
             var logs = await _repository.GetAllAsync();

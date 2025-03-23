@@ -3,46 +3,6 @@
   "WorkspaceRootPath": "D:\\Backend\\EmployeeManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\rolepermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\rolepermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\rolepermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\rolepermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,36 +11,32 @@
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\irolepermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\rolepermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\rolepermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\services\\rolemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\rolemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,14 +63,6 @@
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\backend\\employeemanagementsystem\\employeemanagementsystem\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33EFEB10-E96E-470E-8637-0DC3542F57C1}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,201 +90,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250323155936_Initial.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Migrations\\20250323155936_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:59:36.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Permission.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\Permission.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Permission.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:34:23.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\AuditLog.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\AuditLog.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:34:06.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\User.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\User.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\User.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:33:14.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:33:08.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RolePermissionRepository.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:29:28.447Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RolePermission.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\RolePermission.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\RolePermission.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\RolePermission.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\RolePermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:24:21.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeContext.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\EmployeeContext.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\EmployeeContext.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\EmployeeContext.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\EmployeeContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:01:57.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\RoleRepository.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:21:01.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationRole.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ApplicationRole.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\ApplicationRole.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ApplicationRole.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\ApplicationRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:51:37.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAMwCYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T07:30:04.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:47:03.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "IRolePermissionRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IRolePermissionRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IRolePermissionRepository.cs",
               "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IRolePermissionRepository.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Repositories\\IRolePermissionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:14:20.291Z"
+              "WhenOpened": "2025-03-23T21:05:56.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "RolePermissionRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
+              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Repositories\\RolePermissionRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:29:28.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\RolePermission.cs",
+              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\RolePermission.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:24:21.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAqwGEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:30:04.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RolePermissionController.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\RolePermissionController.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\RolePermissionController.cs",
               "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\RolePermissionController.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\RolePermissionController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:19:33.449Z"
+              "WhenOpened": "2025-03-23T04:19:33.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RoleManagementService.cs",
+              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\RoleManagementService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\RoleManagementService.cs",
+              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\RoleManagementService.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Services\\RoleManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T08:11:29.723Z"
+              "WhenOpened": "2025-03-23T20:12:33.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\Employee.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Employee.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Models\\Employee.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:21:17.655Z"
+              "WhenOpened": "2025-03-23T04:18:57.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IRoleRepository.cs",
@@ -348,19 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:19:21.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 10,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\EmployeeRepository.cs",
@@ -372,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 9,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IEmployeeRepository.cs",
@@ -384,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "AuditLogRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\AuditLogRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\AuditLogRepository.cs",
@@ -396,19 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:18:57.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 12,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\UserRepository.cs",
@@ -420,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\UnitOfWork.cs",
@@ -432,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 13,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IUnitOfWork.cs",
@@ -444,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 14,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IUserRepository.cs",
@@ -456,31 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\PermissionController.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:19:08.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PermissionRepository.cs",
-              "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\PermissionRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\PermissionRepository.cs",
-              "ToolTip": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\PermissionRepository.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Repositories\\PermissionRepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:16:19.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 15,
               "Title": "IPermissionRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IPermissionRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IPermissionRepository.cs",
@@ -492,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 16,
               "Title": "IAuditLogRepository.cs",
               "DocumentMoniker": "D:\\Backend\\EmployeeManagementSystem\\EmployeeManagementSystem\\Repositories\\IAuditLogRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Repositories\\IAuditLogRepository.cs",

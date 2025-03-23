@@ -100,7 +100,17 @@ namespace EmployeeManagementSystem
 
             });
             #endregion
-
+            builder.Services.AddAuthorization(
+                    options =>
+                    {
+                        options.AddPolicy("OnlyAdminUsers", policy => policy.RequireRole("Admin"));
+                        options.AddPolicy("Users", policy => policy.RequireRole("User"));
+                        options.AddPolicy("ManagePermissions", policy =>
+                        {
+                            policy.RequireClaim("Permission", "ManagePermissions");
+                        });
+                    }
+                );
 
             var app = builder.Build();
 
@@ -110,7 +120,7 @@ namespace EmployeeManagementSystem
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

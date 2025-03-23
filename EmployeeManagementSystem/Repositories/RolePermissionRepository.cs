@@ -1,5 +1,6 @@
 ﻿using EmployeeManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace EmployeeManagementSystem.Repositories
 {
@@ -21,39 +22,61 @@ namespace EmployeeManagementSystem.Repositories
                 .ToListAsync();
         }
 
-        // Get a specific RolePermission by RoleId and PermissionId
-        public async Task<RolePermission?> GetByIdAsync(string roleId, int permissionId)
+        public async Task<IEnumerable<Permission>> GetPermissionsByRoleIdAsync(string roleId)
         {
             return await _context.RolePermissions
-                .Include(rp => rp.Role)
-                .Include(rp => rp.Permission)
+                .Where(rp => rp.RoleId == roleId)
+                .Select(rp => rp.Permission)
+                .ToListAsync();
+        }
+
+        public async Task<bool> AssignPermissionToRoleAsync(RolePermission rolePermission)
+        {
+            var existingAssignment = await _context.RolePermissions
+                .FirstOrDefaultAsync(rp => rp.RoleId == rolePermission.RoleId && rp.PermissionId == rolePermission.PermissionId);
+
+            if (existingAssignment != null)
+                return false; // Permission already assigned
+
+            await _context.RolePermissions.AddAsync(rolePermission);
+            return await _context.SaveChangesAsync() > 0;
+        }
+
+        public async Task<bool> UnassignPermissionFromRoleAsync(RolePermission rolePermission)
+        {
+            var existingAssignment = await _context.RolePermissions
+                .FirstOrDefaultAsync(rp => rp.RoleId == rolePermission.RoleId && rp.PermissionId == rolePermission.PermissionId);
+
+            if (existingAssignment == null)
+                return false; // Permission not found
+
+            _context.RolePermissions.Remove(existingAssignment);
+            return await _context.SaveChangesAsync() > 0;
+        }
+
+        public async Task<RolePermission> GetByIdAsync(string roleId, int permissionId)
+        {
+            return await _context.RolePermissions
                 .FirstOrDefaultAsync(rp => rp.RoleId == roleId && rp.PermissionId == permissionId);
         }
 
-        // Add a new RolePermission if it does not exist
         public async Task<bool> AddAsync(RolePermission rolePermission)
         {
-            // Check if the relationship already exists
-            var exists = await _context.RolePermissions
-                .AnyAsync(rp => rp.RoleId == rolePermission.RoleId && rp.PermissionId == rolePermission.PermissionId);
-
-            if (exists)
-                return false;
-
-            _context.RolePermissions.Add(rolePermission);
-            await _context.SaveChangesAsync();
-            return true;
+            await _context.RolePermissions.AddAsync(rolePermission);
+            return await _context.SaveChangesAsync() > 0;
         }
 
-        // Delete a RolePermission by RoleId and PermissionId
         public async Task<bool> DeleteAsync(string roleId, int permissionId)
         {
-            var rolePermission = await GetByIdAsync(roleId, permissionId);
-            if (rolePermission == null) return false;
+            var rolePermission = await _context.RolePermissions
+                .FirstOrDefaultAsync(rp => rp.RoleId == roleId && rp.PermissionId == permissionId);
+
+            if (rolePermission == null)
+                return false; // RolePermission not found
 
             _context.RolePermissions.Remove(rolePermission);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _context.SaveChangesAsync() > 0;
         }
     }
+    
 }

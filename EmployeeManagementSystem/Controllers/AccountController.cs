@@ -95,6 +95,7 @@ namespace EmployeeManagementSystem.Controllers
                         {
                             UserClaims.Add(new Claim(ClaimTypes.Role, roleName));
                         }
+                        UserClaims.Add(new Claim("Permission", "ManagePermission"));
                         SymmetricSecurityKey SignInKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JWT:SecritKey"]));
                         SigningCredentials signingCred =
                             new SigningCredentials(SignInKey, SecurityAlgorithms.HmacSha256);

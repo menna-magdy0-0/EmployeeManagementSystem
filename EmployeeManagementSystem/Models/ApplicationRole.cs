@@ -6,7 +6,7 @@ namespace EmployeeManagementSystem.Models
     public class ApplicationRole:IdentityRole
     {
         //public int Id { get; set; }
-        public string Name { get; set; }
+        public override string Name { get; set; }
 
         // Navigation property for users
         [JsonIgnore]

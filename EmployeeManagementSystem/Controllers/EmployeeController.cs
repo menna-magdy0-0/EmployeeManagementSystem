@@ -1,5 +1,6 @@
 ﻿using EmployeeManagementSystem.Models;
 using EmployeeManagementSystem.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +19,8 @@ namespace EmployeeManagementSystem.Controllers
             this.unitOfWork = unitOfWork;
         }
         [HttpGet]
+        [Authorize(Policy = "OnlyAdminUsers")]
+        [Authorize(Policy = "Users")]
         public async Task<IActionResult> GetAllEmployees() 
         {
             var employees = await empRepository.GetAllEmployeesAsync();
@@ -25,6 +28,8 @@ namespace EmployeeManagementSystem.Controllers
             return Ok(employees);
         }
         [HttpGet("Filter")]
+        [Authorize(Policy = "OnlyAdminUsers")]
+        [Authorize(Policy = "Users")]
         public async Task<IActionResult> GetEmployees(
         [FromQuery] string? name,
         [FromQuery] string? jobTitle,
@@ -44,6 +49,8 @@ namespace EmployeeManagementSystem.Controllers
         }
 
         [HttpGet("{id:int}")]
+        [Authorize(Policy = "OnlyAdminUsers")]
+        [Authorize(Policy ="Users")]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
             var employee =await empRepository.GetEmployeeByIdAsync(id);
@@ -55,6 +62,7 @@ namespace EmployeeManagementSystem.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy= "OnlyAdminUsers")]
         public async Task<IActionResult> AddEmployee([FromBody]Employee employee)
         {
             if(!ModelState.IsValid) {
@@ -69,6 +77,7 @@ namespace EmployeeManagementSystem.Controllers
             
         }
         [HttpPut("{id:int}")]
+        [Authorize(Policy = "OnlyAdminUsers")]
         public async Task<IActionResult> UpdateEmployee(int id, [FromBody] Employee employee)
         {
             if (!ModelState.IsValid)
@@ -107,6 +116,7 @@ namespace EmployeeManagementSystem.Controllers
             //return Ok(new { Message = "Employee updated successfully." });
         }
         [HttpDelete("{id:int}")]
+        [Authorize(Policy = "OnlyAdminUsers")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             var isDeleted = await empRepository.DeleteEmployeeAsync(id);
